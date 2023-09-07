@@ -1,0 +1,111 @@
+#bgImg {
+    background-image: url('../../../images/bkg-hero-header.jpg');
+}
+
+section {
+    height: 80vh;
+}
+
+h1, h4, h5, p, button {
+    font-family: 'Lato';
+}
+
+h2 {
+    font-family: 'Poppins';
+}
+
+p{
+    font-weight: 200;
+}
+
+#project {
+    background: repeating-linear-gradient(
+    135deg,
+    #ffffff,
+    #ffffff 2px,
+    #f0efef9a 2px,
+    #f0efef85 4px
+  );
+}
+
+#testimonial {
+    background-image: url('../../../images/bkg-testimonial.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#imgAvatar {
+    border-radius: 50%;
+}
+#caption {
+    background-color: #6a4d8a;
+}
+
+#triangle-code{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 25px solid #6a4d8a;
+    border-right : 25px solid transparent;
+    border-left : 25px solid transparent;
+   }
+
+   #circleEmpty {
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-left: 7px;
+    margin-right: 7px;
+   }
+
+   #circleFull {
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 7px;
+    margin-right: 7px;
+   }
+   #arrowLight{
+    padding-top: 2px;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    background-color: white;
+   }
+
+   #news {
+    background-color: #222f36;
+   }
+
+   .arrowDark{
+    padding-top: 2px;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    background-color: #ffb81c;
+   }
+
+   #stats {
+    background-image: url('../../../images/bkg-counter.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+
+   #footer {
+    background-color: #292825;
+   }
+   
+   #copyright {
+    background-color: #242320;
+   }
+
+   .fa-brands:hover {
+    filter: invert(100%);
+    transform: scale(2);
+   }
+   ul li a:hover {
+    color: white !important;
+   }
